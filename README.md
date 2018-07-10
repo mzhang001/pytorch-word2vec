@@ -23,8 +23,8 @@ pytorch 0.2.0_3
 - Train CSV multi-prototype with: `[CUDA_VISIBLE_DEVICES=<device_id>] ./csv.py --cuda --train <your_corpus.txt> --save <your_output.txt> --size 300 --window 5 --sample 1e-4 --negative 5 --min_count 5 --processes 4 --iter 1 --batch_size 100 --multi-proto`
 
 ### Implemented Models:
-- CBOW and Skipgram model in `word2vec`. [paper]()
-- NP-MSSG model. [paper]()
+- CBOW and Skipgram model in `word2vec`. [paper](https://arxiv.org/abs/1301.3781)
+- NP-MSSG model. [paper](https://people.cs.umass.edu/~arvind/emnlp2014.pdf)
 -  
 
 ### Benchmarking:
